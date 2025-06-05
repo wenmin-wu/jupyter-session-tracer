@@ -1,20 +1,22 @@
 {
   "name": "jupyter-session-tracer",
-  "version": "0.1.0",
-  "description": "A JupyterLab extension that traces session information and sends it to a remote server",
+  "version": "0.1.1",
+  "description": "A JupyterLab extension that displays session information in a beautiful popup with automatic clipboard copying",
   "keywords": [
     "jupyter",
     "jupyterlab",
-    "jupyterlab-extension"
+    "jupyterlab-extension",
+    "session-tracer",
+    "session-info"
   ],
-  "homepage": "https://github.com/your-username/jupyter-session-tracer",
+  "homepage": "https://github.com/wenmin-wu/jupyter-session-tracer",
   "bugs": {
-    "url": "https://github.com/your-username/jupyter-session-tracer/issues"
+    "url": "https://github.com/wenmin-wu/jupyter-session-tracer/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "wenmin-wu",
+    "email": "wuwenmin1991@gmail.com"
   },
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
@@ -26,7 +28,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/jupyter-session-tracer.git"
+    "url": "https://github.com/wenmin-wu/jupyter-session-tracer.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",

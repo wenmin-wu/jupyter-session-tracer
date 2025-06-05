@@ -100,7 +100,7 @@
     "outputDir": "jupyter_session_tracer/labextension",
     "schemaDir": "schema",
     "_build": {
-      "load": "static/remoteEntry.12361b575349363dbfe1.js",
+      "load": "static/remoteEntry.333724ae00d50d0981c9.js",
       "extension": "./extension",
       "style": "./style"
     }
